@@ -1,24 +1,29 @@
-SkyTraffic-Manager
-SkyTraffic-Manager is a multi-threaded Java application designed to simulate air traffic control operations. It efficiently manages and coordinates aircraft landings and takeoffs while addressing synchronization challenges such as deadlock prevention and starvation avoidance.
+# SkyTraffic-Manager
 
-Features
-Multi-threading: Simulates concurrent aircraft operations.
-Synchronization: Uses mutexes and semaphores for safe runway access.
-Deadlock Prevention & Starvation Avoidance: Ensures smooth operation without indefinite waiting.
-Realistic Simulation: Models real-world air traffic control scenarios for optimal runway utilization.
-Getting Started
-Prerequisites
-Java JDK 8 or later
-An IDE (e.g., IntelliJ IDEA, Eclipse) or a text editor
-Maven or Gradle (optional, if you use dependency management)
-Installation
-Clone the repository:
+**SkyTraffic-Manager** is a multi-threaded Java application designed to simulate air traffic control operations. It efficiently manages and coordinates aircraft landings and takeoffs while addressing synchronization challenges such as deadlock prevention and starvation avoidance.
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/SkyTraffic-Manager.git
-cd SkyTraffic-Manager
+## Features
+
+- **Multi-threading:** Simulates concurrent aircraft operations.
+- **Synchronization:** Uses mutexes and semaphores for safe runway access.
+- **Deadlock Prevention & Starvation Avoidance:** Ensures smooth operation without indefinite waiting.
+- **Realistic Simulation:** Models real-world air traffic control scenarios for optimal runway utilization.
+
+## Getting Started
+
+### Prerequisites
+
+- Java JDK 8 or later
+- An IDE (e.g., IntelliJ IDEA, Eclipse) or a text editor
+- Maven or Gradle (optional, if you use dependency management)
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/SkyTraffic-Manager.git
+   cd SkyTraffic-Manager
 Compile the project:
 
 If using Maven:
